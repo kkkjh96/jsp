@@ -7,7 +7,7 @@ public class DatabaseUtil {
 
 	public static Connection getConnection() {
 		try {
-			String dbURL = "jdbc:mysql://localhost:3306/jsp";
+			String dbURL = "jdbc:mysql://localhost:3306/jsp?characterEncoding=UTF-8&serverTimezone=UTC";
 			String dbID = "root";
 			String dbPassword = "tiger";
 			Class.forName("com.mysql.cj.jdbc.Driver");

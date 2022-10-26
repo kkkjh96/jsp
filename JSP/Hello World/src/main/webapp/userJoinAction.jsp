@@ -22,6 +22,7 @@
 		script.close();
 		return;
 	}
+	
 	UserDAO userDAO = new UserDAO();
 	int result = userDAO.join(userID, userPassword);
 	if(result == 1) {
