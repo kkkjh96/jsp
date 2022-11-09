@@ -18,7 +18,7 @@
 		script.println("<script>");
 		script.println("alert('입력이 안 된 사항이 있습니다.');");
 		script.println("history.back();");
-		script.println("</srcipt>");
+		script.println("</script>");
 		script.close();
 		return;
 	}
@@ -30,7 +30,7 @@
 		script.println("<script>");
 		script.println("alert('회원가입에 성공했습니다.');");
 		script.println("location.href = 'index.jsp';");
-		script.println("</srcipt>");
+		script.println("</script>");
 		script.close();
 		return;
 	}
