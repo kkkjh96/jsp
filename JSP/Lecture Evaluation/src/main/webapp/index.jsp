@@ -10,7 +10,7 @@
 <!-- 부트스트랩 css -->
 <link rel="stylesheet" href="./css/bootstrap.min.css">
 <!-- custom css -->
-<link rel="stylesheet" href="./css/custom.min.css">
+<link rel="stylesheet" href="./css/custom.css">
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -41,7 +41,7 @@
 	<!-- 제이쿼리 자바스크립트 추가하기 -->
     <script src="./js/jquery.min.js"></script>
     <!-- Popper 자바스크립트 추가하기 -->
-    <script src="./js/popper.min.js"></script>
+    <script src="./js/popper.js"></script>
     <!-- 부트스트랩 자바스크립트 추가하기 -->
     <script src="./js/bootstrap.min.js"></script>
 </body>
